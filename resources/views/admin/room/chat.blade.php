@@ -474,7 +474,7 @@
                                 }
 
                                 let newMessage = `
-                                    <div class="card chat-message" data-id="${item.id}">
+                                    <div style="background-color: {{ @$chat_contents->chat_color }}" class="card chat-message" data-id="${item.id}">
                                         <b>${item.name}</b>
                                         ${final_content}
                                     </div>
